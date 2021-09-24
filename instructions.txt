@@ -1,0 +1,32 @@
+requirements:
+	maven
+	java: 8+
+	
+jar description:
+	jar name: player-communication-single-queue-0.0.1-SNAPSHOT.jar
+	
+	
+Build:
+	1.	open terminal or CMD
+	2.	cd to project directory (player-communication-single-queue)
+	3.	run "mvn clean package" to build the application and generate the jar file
+	 
+
+run application in Linux:
+
+	1.	open terminal
+	2.	cd to project directory (player-communication-single-queue)
+	3.	run "bash runapp.sh" or "java -jar ./target/player-communication-single-queue-0.0.1-SNAPSHOT.jar" to start the application
+
+
+run application in windows:
+
+	1.	open CMD
+	2.	cd to project directory (player-communication-single-queue)
+	3.	run "java -jar ./target/player-communication-single-queue-0.0.1-SNAPSHOT.jar" to start the application
+
+
+build and run project with Docker:
+	1.	cd to project directory (player-communication-single-queue)
+	2.	to build the image run "docker build -t players ."
+	3.	to start the container run "docker run players"
